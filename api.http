@@ -1,0 +1,5 @@
+@baseUrl = http://localhost:3000
+
+
+### @name list_tasks
+GET {{baseUrl}}/task
