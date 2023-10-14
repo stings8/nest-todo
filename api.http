@@ -21,8 +21,7 @@ PATCH   {{baseUrl}}/task/61e9ff1b-b1f3-4a70-ab55-7cbfdec47f85
 Content-Type: application/json
 
 {  
-
-  "description": "Iniciado projeto",
+  "description": "testando projeto",
   "status": "IN_PROGRESS"
 }
 
