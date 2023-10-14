@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { TaskModule } from './task/task.module';
+import { PrismaModule } from './prisma/prisma.module';
 
 @Module({
-  imports: [TaskModule],
+  imports: [TaskModule, PrismaModule],
   controllers: [],
   providers: [],
 })
-// eslint-disable-next-line prettier/prettier
 export class AppModule { }

@@ -3,3 +3,28 @@
 
 ### @name list_tasks
 GET {{baseUrl}}/task
+
+### @name create_task
+POST {{baseUrl}}/task
+Content-Type: application/json
+
+{  
+  "name": "teste",
+  "description": "Criar app"
+}
+
+### @name find_task_by_id
+GET  {{baseUrl}}/task/f967f0d3-5dce-496d-9f8d-43f1b3d234c1
+
+### @name update_tasks
+PATCH   {{baseUrl}}/task/61e9ff1b-b1f3-4a70-ab55-7cbfdec47f85
+Content-Type: application/json
+
+{  
+
+  "description": "Iniciado projeto",
+  "status": "IN_PROGRESS"
+}
+
+### @name delete
+DELETE   {{baseUrl}}/task/5cdb2c5d-9f8b-4abd-9b20-a341a30bb5ed
